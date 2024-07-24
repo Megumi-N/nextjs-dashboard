@@ -1,5 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 
+export const experimental_ppr = true;
+
 // childrenを指定すると、子階層まで影響する
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
